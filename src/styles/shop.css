@@ -1,0 +1,48 @@
+.filter__widget {
+    display: flex;
+    height: 100%;
+}
+
+.filter__widget select {
+    padding: 8px 20px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    width: 100%;
+}
+
+.filter__widget select:focus {
+    outline: none!important;
+}
+
+.filter__widget select option {
+    font-size: .9rem;
+    cursor: pointer;
+}
+.search__box {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 0 12px 0 2px;
+}
+.search__box input,
+.search__box {
+    width: 100%;
+}
+
+.search__box input {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+
+.search__box span {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 991px) {
+    .filter__widget select {
+        margin-bottom: 15px;
+    }
+}

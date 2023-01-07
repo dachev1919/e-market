@@ -1,0 +1,9 @@
+.users td img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+}
+
+.users .btn__primary.delete {
+    cursor: no-drop;
+}

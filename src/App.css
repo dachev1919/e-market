@@ -1,0 +1,171 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+/*  css variables */
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #0a1d37;
+  --secondary-color: #0d274c;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 60px 0;
+}
+
+/* Repeat classes*/
+.btn__primary {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all .3s ease;
+  text-transform: uppercase;
+}
+
+.btn__primary:not(.white):not(.delete) {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn__primary:not(.white):not(.delete) a {
+  color: #fff!important;
+}
+
+.btn__primary:not(.white):not(.delete):hover {
+  background: var(--secondary-color);
+}
+
+.btn__primary.white {
+  background: #fff;
+  color: var(--primary-color);
+}
+
+.btn__primary.white a {
+  color: var(--primary-color)!important;
+}
+
+.btn__primary.white:hover {
+  background: #eaeaea;
+}
+
+.btn__primary.delete {
+  background: #d32b2b;
+  color: #fff;
+}
+
+.btn__primary.delete a {
+  color: #fff!important;
+}
+
+.btn__primary.delete:hover {
+  background: #b01a1a;
+}
+
+.section__title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.form__group:not(.review__rating) {
+  border: 1px solid var(--primary-color);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form__group textarea,
+.form__group input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.loading__message {
+  padding: 130px 0;
+}
+
+.admin__section {
+  min-height: 600px;
+}
+/* END Repeat classes*/
+
+/* RESPONSIVE PART */
+@media screen and (max-width: 991px) {
+  section {
+    padding: 50px 0;
+  }
+
+  .section__title {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn__primary {
+    font-size: .8rem;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  .section__title {
+    font-size: 1.4rem;
+  }
+}
+/* END RESPONSIVE PART */

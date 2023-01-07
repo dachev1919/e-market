@@ -1,0 +1,63 @@
+.admin__header {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color);
+    padding: 1rem 0;
+}
+
+.admin__header .admin__nav-top {
+    width: 100%;
+}
+
+.admin__header .admin__nav-top-right img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.admin__header .admin__nav-top-right span i {
+    color: #fff;
+}
+
+.admin__header .admin__nav-wrapper-top .logo h1 {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.admin__header .search__box span {
+    cursor: pointer;
+}
+
+.admin__header .search__box input {
+    background: transparent;
+}
+
+.admin__header .search__box {
+    border-radius: 5px;
+    background: white;
+}
+
+.admin__menu {
+    width: 100%;
+    line-height: 400%;
+    background: rgba(10, 29, 55, 0.15);
+}
+
+.admin__menu-list a {
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: all .3s ease;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .5);
+}
+
+.admin__menu-list a.active__admin-menu,
+.admin__menu-list a:hover {
+    background: #fff;
+}
+
+.admin__menu-list {
+
+}

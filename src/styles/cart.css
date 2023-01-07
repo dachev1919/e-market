@@ -1,0 +1,21 @@
+.cart {
+    padding: 140px 0;
+}
+.cart .table tr td img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.cart td.trash {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.cart td.trash:hover {
+    opacity: .75;
+}
+
+.cart td {
+    color: var(--primary-color);
+}

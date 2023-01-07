@@ -1,0 +1,15 @@
+/* RESPONSIVE PART */
+@media screen and (max-width: 767px) {
+    .clock__wrapper {
+        justify-content: center;
+    }
+
+    .clock__data h5 {
+        font-size: .8rem!important;
+    }
+
+    .clock__data h1 {
+        font-size: 1.1rem!important;
+    }
+}
+/* END RESPONSIVE PART */

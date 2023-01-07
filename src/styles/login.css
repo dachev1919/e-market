@@ -1,0 +1,17 @@
+.login {
+    padding: 120px 0;
+}
+
+.auth__form {
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.auth__form .form__group {
+    background: #fff;
+}
+
+.auth__form p a {
+    color: rgba(255, 255, 255, .75);
+}

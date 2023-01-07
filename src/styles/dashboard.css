@@ -1,0 +1,42 @@
+.dashboard .revenue__box,
+.dashboard .order__box,
+.dashboard .product__box,
+.dashboard .user__box {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dashboard .revenue__box {
+    background: var(--card-bg-01);
+}
+
+.dashboard .product__box {
+    background: var(--card-bg-02);
+}
+
+.dashboard .order__box {
+    background: var(--card-bg-03);
+}
+
+.dashboard .user__box {
+    background: var(--card-bg-04);
+}
+
+.dashboard .revenue__box h5,
+.dashboard .order__box h5,
+.dashboard .product__box h5,
+.dashboard .user__box h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.dashboard .revenue__box span,
+.dashboard .order__box span,
+.dashboard .product__box span,
+.dashboard .user__box span {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 2rem;
+}

@@ -1,0 +1,28 @@
+.add__product .form__group:not(.review__rating) {
+    border: none;
+    width: auto;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.add__product .form__group textarea,
+.add__product .form__group input {
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.add__product .form__group select {
+    padding: 6.5px 10px;
+}
+
+.add__product .form__group span {
+    color: #a90000;
+    font-weight: 500;
+}
+
+.add__product .form__group .btn__primary {
+    display: block;
+    margin-left: auto;
+}

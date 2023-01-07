@@ -1,0 +1,7 @@
+.all__products-item img {
+    max-width: 60px;
+}
+
+.all__products-item .btn__primary.delete {
+    cursor: no-drop;
+}

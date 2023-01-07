@@ -1,0 +1,22 @@
+.signup {
+    padding: 120px 0;
+}
+
+.signup__form {
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.signup__form .form__group {
+    background: #fff;
+}
+
+.signup__form p a {
+    color: rgba(255, 255, 255, .75);
+}
+
+.signup__form .form__group__image input {
+    color: #fff;
+    cursor: pointer;
+}
